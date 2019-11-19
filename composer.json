@@ -1,0 +1,24 @@
+{
+    "name": "saltid/pimcore-examplebundle",
+    "description": "Pimcore Example Bundle",
+    "type": "pimcore-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yulius Ardian Febrianto",
+            "email": "yuliusardin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SaltId\\ExampleBundle\\" : "src/ExampleBundle/"
+        }
+    },
+    "extra": {
+        "pimcore": {
+            "bundles": [
+                "SaltId\\ExampleBundle\\ExampleBundle"
+            ]
+        }
+    }
+}
